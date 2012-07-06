@@ -50,13 +50,23 @@ print ERB.new(ENV['TM_LINK_FORMAT']).result
 	<string>word</string>
 	<key>input</key>
 	<string>selection</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>^~@W</string>
 	<key>name</key>
 	<string>Lookup Word / Selection on Wikipedia and link</string>
-	<key>output</key>
-	<string>insertAsSnippet</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>snippet</string>
+	<key>outputLocation</key>
+	<string>replaceInput</string>
 	<key>scope</key>
 	<string>text</string>
 	<key>uuid</key>
 	<string>B94A2DF9-FC40-4281-80FB-35FB2917CDE7</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>
