@@ -53,7 +53,7 @@ print ERB.new(ENV['TM_LINK_FORMAT']).result
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>^~@W</string>
+	<string>^~@w</string>
 	<key>name</key>
 	<string>Lookup Word / Selection on Wikipedia and link</string>
 	<key>outputCaret</key>
