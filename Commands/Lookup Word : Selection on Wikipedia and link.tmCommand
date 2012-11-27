@@ -62,8 +62,6 @@ print ERB.new(ENV['TM_LINK_FORMAT']).result
 	<string>snippet</string>
 	<key>outputLocation</key>
 	<string>replaceInput</string>
-	<key>scope</key>
-	<string>text</string>
 	<key>uuid</key>
 	<string>B94A2DF9-FC40-4281-80FB-35FB2917CDE7</string>
 	<key>version</key>
