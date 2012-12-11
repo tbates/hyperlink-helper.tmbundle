@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
 	<key>command</key>
 	<string>#!/usr/bin/env ruby -wKU
 # http://brettterpstra.com/searchlink-automated-markdown-linking-improved/
@@ -230,10 +232,23 @@ if inline
 else
 	puts input
 	puts footer
-end</string>
+end
+</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>name</key>
-	<string>smart link lookup</string>
+	<string>Replace smart-links</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>replaceInput</string>
 	<key>uuid</key>
 	<string>B2345092-190C-4658-98EB-68202BF38C64</string>
+	<key>version</key>
+	<string>2</string>
 </dict>
 </plist>
