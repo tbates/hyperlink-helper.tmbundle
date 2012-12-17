@@ -21,9 +21,6 @@
 				<string>D01C6CD1-A0CF-46AF-AB0E-DF8C5CAB1B36</string>
 				<string>------------------------------------</string>
 				<string>5A08E461-05CC-4C03-9DC8-BF118594EA3E</string>
-				<string>------------------------------------</string>
-				<string>A62D9EFB-5591-4760-B862-A04607ABFBA9</string>
-				<string>B2345092-190C-4658-98EB-68202BF38C64</string>
 				<string>402D8D16-1458-4914-B82F-3F2D7574252A</string>
 			</array>
 			<key>submenus</key>
@@ -41,10 +38,10 @@
 					<string>Yahoo</string>
 				</dict>
 			</dict>
+		</dict>
 			<key>name</key>
 			<string>Hyperlink Helper</string>
 			<key>uuid</key>
 			<string>7592B521-FC5E-4D69-A6DD-5A0DD7529CB4</string>
-		</dict>
 	</dict>
 </plist>
